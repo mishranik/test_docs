@@ -10,6 +10,7 @@ Welcome to The office's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   modules
 
 
 Indices and tables
