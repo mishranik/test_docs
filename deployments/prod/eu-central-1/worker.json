@@ -1,0 +1,32 @@
+{
+    "name": "{{ASG_NAME}}",
+    "workers": [
+        {
+            "name": "{{WORKER_NAME}}",
+            "type": "moengage_worker",
+            "app": "{{CELERY_APP}}",
+            "process_count": 1,
+            "thread_count": 1,
+            "queues": [
+                "{{QUEUE_NAME}}"
+            ],
+            "run_mode": "concurrency"
+        }
+    ],
+    "availability_zones": [
+        "eu-central-1a"
+    ],
+    "team_email": "{{TEAM_EMAIL}}",
+    "tags": {
+        "Business": "{{TEAM}}",
+        "Owner": "{{OWNER}}",
+        "Group": "worker",
+        "SubGroup": "{{SERVICE}}"
+    },
+    "instance_settings": {
+        "lifecycle": "normal",
+        "instance_types": [
+            "t3.medium"
+        ]
+    }
+}

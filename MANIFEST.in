@@ -1,0 +1,4 @@
+include VERSION
+include README.md
+include fury.json
+include requirements.txt

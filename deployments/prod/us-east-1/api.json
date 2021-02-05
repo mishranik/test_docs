@@ -1,0 +1,30 @@
+{
+    "name": "{{ASG_NAME}}",
+    "api": [
+        {
+            "name": "{{API_NAME}}",
+            "type": "moengage_api",
+            "app": "{{APP_PATH}}",
+            "process_count": 1,
+            "thread_count": 1,
+            "dns": "{{DNS}}",
+            "api_type": "internal"
+        }
+    ],
+    "availability_zones": [
+        "us-east-1c"
+    ],
+    "team_email": "{{TEAM_EMAIL}}",
+    "tags": {
+        "Business": "{{TEAM}}",
+        "Owner": "{{OWNER}}",
+        "Group": "apis",
+        "SubGroup": "{{SERVICE}}"
+    },
+    "instance_settings": {
+        "lifecycle": "normal",
+        "instance_types": [
+            "t3.medium"
+        ]
+    }
+}
