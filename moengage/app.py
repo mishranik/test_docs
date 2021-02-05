@@ -7,3 +7,11 @@ class App(object):
         :return: Hello, my col frien
         """
         return 'Hello, my col frien'
+
+    def identity_theft(joke=False):
+        """
+         Dwight Schrute : Identity theft is not a joke, Jim! Millions of families suffer every year! Jim
+        :param joke: bool is this a joke or not a joje
+        :return: Shouts Michael
+        """
+        return "MICHAELLL"
